@@ -1,6 +1,39 @@
-<p><img src="top_logo"></p>
+<!doctype html>
+<html>
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="ico.ico" />
+  <title>Version up</title>
+  <style>
+      .mobile, .pc{
+        text-align: center;font-size:0;
+      }
+      .mobile > *{max-width:100%;}
+      @media(max-width:1000px){
+        .pc{display:none;}
+        .mobile{display:block;}
+      }
+      @media(min-width:1001px){
+        .pc{display:block;}
+        .mobile{display:none;}
+      }
+  </style>
+  <meta charset="utf-8">
+</head>
 
-<p style="text-align:center;"><img src="main_01.jpg"></p>
-<p style="text-align:center;"><a target="_blank" href="http://naver.me/FlWCdGM6"><img src="main_02.jpg"></a></p>
-<p style="text-align:center;"><img src="main_03.jpg"></p>
-<p style="text-align:center;"><a target="_blank" href="http://naver.me/FlWCdGM6"><img src="main_04.jpg"></a></p>
+<body>
+<div class = "mobile">
+    <img src="main_01.jpg"><br/>
+    <a target="_blank" href="http://naver.me/FlWCdGM6"><img src="main_02.jpg"></a><br/>
+    <img src="main_03.jpg"><br/>
+    <a target="_blank" href="http://naver.me/FlWCdGM6"><img src="main_04.jpg"></a>
+</div>
+
+<div class ="pc">
+
+  <img src="main_01_pc.jpg"><br/>
+  <a target="_blank" href="http://naver.me/FlWCdGM6"><img src="main_02_pc.jpg"></a><br/>
+  <img src="main_03_pc.jpg"><br/>
+  <a target="_blank" href="http://naver.me/FlWCdGM6"><img src="main_04_pc.jpg"></a><br/>
+</div>
+
+</body>
